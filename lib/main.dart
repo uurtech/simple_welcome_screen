@@ -32,8 +32,18 @@ class MyHomePage extends StatelessWidget {
                   borderRadius: new BorderRadius.circular(50.0),
                   color: Colors.green
                 ),
+                child: new Icon(Icons.local_offer,color: Colors.white),
               )
-            ])
+            ]),
+            new Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children:<Widget>[
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: new Text("Quick Bee",style: new TextStyle(fontSize: 30.0),),
+                )
+              ],
+            )
           ],
         ),
       ),
